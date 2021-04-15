@@ -1,2 +1,2 @@
 # JavaScriptCompleto
-Repositório do Curso JavaScript Completo da Danki Code
+:woman_technologist:	Repositório do Curso JavaScript Completo da Danki Code
