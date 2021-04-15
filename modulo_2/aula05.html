@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScritp Completo</title>
+</head>
+
+<body>
+    <div>
+        <h1>Primeiros comandos JavaScript</h1>
+    </div>
+
+    <script>
+        //Funções
+        function testes(){
+            // executado quando chamar a função
+            console.log('Chamou a função testes corretamente!');
+        }
+        
+        testes();
+
+        function pessoas(nome, idade){
+            console.log(`O nome é ${nome} e a idade é ${idade}`);
+        }
+
+        var nome = prompt('Qual é o seu nome? ');
+        var idade = prompt('Qual é a sua idade? ');
+        pessoas(nome, idade);
+
+        function pegarNome(parametro){
+            if (parametro == 1){
+                return "Stèphanie";
+            }else{
+                return "Outro Nome";
+            }
+        }
+
+        var pegandoNome = pegarNome(1);
+        console.log(pegandoNome);
+    </script>
+</body>
+
+</html>
