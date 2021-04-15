@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScritp Completo</title>
+</head>
+<body>
+    <div>
+        <h1>Primeiros comandos JavaScript</h1>
+    </div>
+    
+    <script>
+        // var = variavel global
+
+        var nome = 'Stèphanie';
+        nome = 'Stèh'
+
+        // let = variavel no escopo 
+        {
+            let idade = 28;
+            console.log(`Olá ${nome} com var local`) // funciona pois é uma variável global
+            console.log(`Você tem ${idade} anos!`) // aqui funciona, dentro do escopo
+
+        }
+
+        console.log(`Olá ${nome}`) // funciona pois é uma variável global
+        //console.log(`Você tem ${idade} anos!`) // indefinido
+
+        // const = constante
+        const sobrenome = 'Tabosa'
+        sobrenome = 'Barreto'
+
+        console.log(`Seu sobrenome é ${sobrenome}`) //dará erro pois não posso alterar uma constante
+
+    </script>
+</body>
+</html>
